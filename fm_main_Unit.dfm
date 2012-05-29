@@ -33,7 +33,7 @@ object frm_main: Tfrm_main
     Top = 65
     Width = 653
     Height = 526
-    ActivePage = cxTabSheet2
+    ActivePage = cxTabSheet1
     Align = alClient
     TabOrder = 2
     ClientRectBottom = 526
