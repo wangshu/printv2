@@ -1,0 +1,40 @@
+object frm_Authorization: Tfrm_Authorization
+  Left = 518
+  Top = 484
+  BorderIcons = []
+  BorderStyle = bsToolWindow
+  Caption = 'frm_Authorization'
+  ClientHeight = 63
+  ClientWidth = 283
+  Color = clBtnFace
+  Font.Charset = SHIFTJIS_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -15
+  Font.Name = #23435#20307
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClick = FormClick
+  OnShow = FormShow
+  PixelsPerInch = 120
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 16
+    Top = 20
+    Width = 106
+    Height = 15
+    Caption = #26381#21153#22120#36830#25509#20013'..'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+  end
+  object cxProgressBar1: TcxProgressBar
+    Left = 152
+    Top = 16
+    TabOrder = 0
+    Width = 121
+  end
+end
