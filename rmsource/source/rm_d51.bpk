@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="d:\winapps\borland\cbuilder5\Projects\Bpl\rm_d51.bpl"/>
+    <OBJFILES value="d:\winapps\borland\cbuilder5\Projects\Lib\RM_ChartUI.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_reg.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DBChartUI.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_d51.obj"/>
+    <RESFILES value="rm_d51.res RM_reg.dcr"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="Dss50.lib"/>
+    <SPARELIBS value="Vcl50.lib Vcldb50.lib Tee50.lib vcljpg50.lib VCLBDE50.lib Vclx50.lib 
+      Dss50.lib vclado50.lib Vclmid50.lib TeeUI50.lib TeeDB50.lib"/>
+    <PACKAGES value="dsnide50.bpi teeui50.bpi rm_r51.bpi Vcl50.bpi Vclx50.bpi vcljpg50.bpi 
+      Vcldb50.bpi vclado50.bpi Vclbde50.bpi Tee50.bpi teedb50.bpi VCLMID50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="rm_d51.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\projects\Bpl;E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-N2$(BCB)\Projects\Lib -N0$(BCB)\Projects\Lib -$Y+ -$W -$O- 
+      -LUdcltee50.bpl -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-l$(BCB)\Projects\Bpl -I$(BCB)\Projects\Lib 
+      -D&quot;ReportMachine Designtime Package 5.50&quot; -aa -Tpp -Gpd -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=3
+MinorVer=1
+Release=1
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=3.1.1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=$(BCB)\projects\Bpl;E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\lib
+Item1=$(BCB)\projects\Bpl;E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;e:\dcl\rmachine\lib
+Item2=$(BCB)\projects\Bpl;E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item3=E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item4=E:\Bpl\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlIntOutputDir]
+Count=6
+Item0=$(BCB)\Projects\Lib
+Item1=$(BCB)\Lib
+Item2=$(BCB)\Lib\
+Item3=..\lib
+Item4=e:\dcl\rmachine\lib
+Item5=$(BCB)\Lib\Obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=7
+Item0=d:\winapps\borland\cbuilder5\Projects\Bpl\
+Item1=$(BCB)\Projects\Bpl\
+Item2=$(BCB)\Projects\Bpl
+Item3=e:\bpl\
+Item4=e:\bpl
+Item5=d:\winapps\borland\cbuilder5\Projects\Lib\
+Item6=$(BCB)\Projects\Lib
+
+[HistoryLists\hIBPIOutputDir]
+Count=3
+Item0=$(BCB)\Projects\Bpl
+Item1=e:\bpl\
+Item2=e:\bpl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,41 @@
+package rm_d90;
+
+{$R *.res}
+{$R 'RM_reg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Report Machine Design Package 5.13'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  designide,
+  teeui,
+  rm_r90;
+
+contains
+  RM_reg in 'RM_reg.pas',
+  RM_ChartUI in 'RM_ChartUI.pas',
+  RM_DBChartUI in 'RM_DBChartUI.pas',
+  RM_EditorFieldAlias in 'RM_EditorFieldAlias.pas';
+
+end.

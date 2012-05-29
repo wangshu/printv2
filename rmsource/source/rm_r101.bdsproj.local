@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006-03-27 09:56:57.375.bdsproj,E:\DCL\rmachine\source\rm_r61.bdsproj=E:\DCL\rmachine\source\rm_r101.bdsproj</Transaction>
+    <Transaction>2006-04-28 15:03:56.765.pas,E:\DCL\rmachine\source\rm_JvInterpreter_Types.pas=</Transaction>
+    <Transaction>2006-04-28 15:03:58.234.pas,E:\DCL\rmachine\source\rm_JvInterpreter_Windows.pas=</Transaction>
+    <Transaction>2006-04-28 15:03:59.562.pas,E:\DCL\rmachine\source\RM_JvRichEdit.pas=</Transaction>
+    <Transaction>2006-04-28 15:04:03.953.pas,E:\DCL\rmachine\source\rm_JvTypes.pas=</Transaction>
+    <Transaction>2006-04-28 15:04:08.281.pas,E:\DCL\rmachine\source\rm_JclMime.pas=</Transaction>
+    <Transaction>2006-04-28 15:04:09.578.pas,E:\DCL\rmachine\source\rm_JVCLVer.pas=</Transaction>
+    <Transaction>2006-04-28 15:05:30.078.pas,E:\DCL\rmachine\source\rm_JclMime.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

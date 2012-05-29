@@ -1,0 +1,26 @@
+#include "RM_Const.pas"
+
+STRINGTABLE
+{
+;--- LinesEditorForm resources -------------------------------------------------
+  rmRes + 4000, "才﹃絪胯竟"
+;--- SQLEditorForm resources -------------------------------------------------
+  rmRes + 4010, "SQL 絪胯竟"
+
+;--- String resources ----------------------------------------------------------
+  SInsertLabel, "竚 Label 北ン"
+  SInsertEdit, "竚 Edit 北ン"
+  SInsertMemo, "竚 Memo 北ン"
+  SInsertButton, "竚 Button 北ン"
+  SInsertCheckBox, "竚 CheckBox 北ン"
+  SInsertRadioButton, "竚 RadioButton 北ン"
+  SInsertListBox, "竚 ListBox 北ン"
+  SInsertComboBox, "竚 ComboBox 北ン"
+  SInsertDateEdit, "竚 DateEdit 北ン"
+  SInsertCheckListBox, "竚 CheckListBox 北ン"
+
+  SInsertDB, "竚 database 北ン"
+  SInsertTable, "竚 table 北ン"
+  SInsertQuery, "竚 query 北ン"
+  SInsertDBLookup, "竚 DBLookupComboBox 北ン"
+}

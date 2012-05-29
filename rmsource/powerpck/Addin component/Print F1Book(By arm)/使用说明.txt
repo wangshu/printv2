@@ -1,0 +1,12 @@
+以D5为例
+1.安装：
+  将powerpck\Print F1Book(By arm)目录下的所有文件文件复制到RM的Source目录下，
+  打开DclRMachine5.dpk，将所有文件加入到其中重新编译,Report Machine的面板上出现RMPrintF1Book的控件。
+
+2.使用：在form中加入F1book6,rmFormReport以及RMPrintF1Book，设置rmFormReport的PrintControl为F1book6
+
+3.注意事项：如果需要扩大及缩小打印比例请调整F1book6的ViewScale属性
+
+4。如有使用问题请给我写信 425007@sina.com
+
+

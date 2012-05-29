@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="$(BCB)\Projects\Bpl\rm_r61.bpl"/>
+    <OBJFILES value="d:\winapps\borland\cbuilder6\Projects\Lib\rm_r61.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_about.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_AngLbl.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_BarCode.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Chart.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_CheckBox.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_ChineseMoneyMemo.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Class.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Common.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Const.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Const1.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Ctrls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Dataset.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DBDialogCtls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Designer.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DesignerOptions.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Diagonal.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DialogCtls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DsgCtrls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_bmp.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_emf.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_gif.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_E_Graphic.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_Jpeg.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_E_WMF.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorBand.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorBarCode.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorCalc.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorDictionary.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorExpr.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorFindReplace.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorFormat.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorFrame.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorGroup.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorHilit.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorMemo.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorPicture.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorReportProp.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorStrings.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorTemplate.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_FormReport.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Insp.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Ole.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PageSetup.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Parser.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PChart.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PDBGrid.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PdcsGrid.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PEhGrid.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Printer.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Progr.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PropAdds.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PropInsp.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PRxCtls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PwwGrid.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_RichEdit.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_RxParaFmt.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Utils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Wizard.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_WizardNewReport.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wwRichEdit.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_ADO.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_BDE.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_DataPrv.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_DBWrap.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_Dbx.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_DlgListField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_DlgNewLookupField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_EditorField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_Editorldlinks.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_ExpFrm.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_IBX.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_Qblnk.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_QryDesigner.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_QueryParm.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_ReportExplorer.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Preview.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DsgForm.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DsgGridReport.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorCellProp.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorCellWidth.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorGridCols.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorInsField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Grid.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_GridReport.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_htm.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorBandType.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_Tiff.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DBChart.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Vers.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Cmn.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Cnst.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Ctls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Tlbr.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97Tlwn.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TB97.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_txt.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_AsBarView.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_Cross.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_csv.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_AsBarCode.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMInterpreter_Chart.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_AutoSearchField.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_DlgFind.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_E_llPDF.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_main.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_e_Xls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorConfirmReplace.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorFieldAlias.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorHF.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorReplaceText.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorReportMaster.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_EditorSearchText.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_GridReportMaster.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_HtmlMemo.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JclMime.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JVCLVer.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvEditor.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvHLEditor.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvHLParser.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Classes.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Controls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Db.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_DbTables.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Dialogs.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_ExtCtrls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Forms.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Graphics.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_StdCtrls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_System.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_SysUtils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Types.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_Windows.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreterConst.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreterFm.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreterParser.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_JvRichEdit.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvTypes.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_PrintDlg.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_ReportMaster.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_St2DBarC.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_StBarC.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_StBase.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_StConst.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_TntRichEdit.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawBIFF8.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawConsts.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawExcel.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawExcelfmt.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawFormula.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawFormula_iftab.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wawWriters.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_wzGridStd.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_ZlibEx.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_DlgSelectReportType.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RMD_midas.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvWin32.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JclBase.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JclResources.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JclStrings.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JclWideStrings.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvComponentBase.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvConsts.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvEditorCommon.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvExControls.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvFixedEditPopup.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvInterpreter_JvUtils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvJCLUtils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvJVCLUtils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvResources.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvThemes.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvUnicodeCanvas.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\rm_JvVCL5Utils.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_System.obj 
+      d:\winapps\borland\cbuilder6\Projects\Lib\RM_CodeGen.obj"/>
+    <RESFILES value="rm_r61.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) RM_about.dfm RM_BarCode.dfm RM_Chart.dfm RM_Designer.dfm 
+      RM_DesignerOptions.dfm RM_e_bmp.dfm RM_e_emf.dfm RM_e_gif.dfm 
+      RM_e_Jpeg.dfm RM_E_WMF.dfm RM_EditorBand.dfm RM_EditorBarCode.dfm 
+      RM_EditorCalc.dfm RM_EditorDictionary.dfm RM_EditorExpr.dfm 
+      RM_EditorField.dfm RM_EditorFindReplace.dfm RM_EditorFormat.dfm 
+      RM_EditorFrame.dfm RM_EditorGroup.dfm RM_EditorHilit.dfm RM_EditorMemo.dfm 
+      RM_EditorPicture.dfm RM_EditorReportProp.dfm RM_EditorStrings.dfm 
+      RM_EditorTemplate.dfm RM_Ole.dfm RM_PageSetup.dfm RM_Progr.dfm 
+      RM_RichEdit.dfm RM_RxParaFmt.dfm RM_WizardNewReport.dfm RM_wwRichEdit.dfm 
+      RMD_ADO.dfm RMD_BDE.dfm RMD_DataPrv.dfm RMD_Dbx.dfm RMD_DlgListField.dfm 
+      RMD_DlgNewLookupField.dfm RMD_EditorField.dfm RMD_Editorldlinks.dfm 
+      RMD_ExpFrm.dfm RMD_IBX.dfm RMD_Qblnk.dfm RMD_QryDesigner.dfm 
+      RMD_QueryParm.dfm RM_Preview.dfm RM_DsgGridReport.dfm 
+      RM_EditorCellProp.dfm RM_EditorCellWidth.dfm RM_EditorGridCols.dfm 
+      RM_e_htm.dfm RM_EditorBandType.dfm RM_e_Tiff.dfm RM_DBChart.dfm 
+      RM_e_txt.dfm RM_Cross.dfm RM_e_csv.dfm RM_DlgFind.dfm RM_e_Xls.dfm 
+      RM_EditorConfirmReplace.dfm RM_EditorFieldAlias.dfm RM_EditorHF.dfm 
+      RM_EditorReplaceText.dfm RM_EditorReportMaster.dfm RM_EditorSearchText.dfm 
+      RM_HtmlMemo.dfm RM_PrintDlg.dfm RM_TntRichEdit.dfm 
+      RMD_DlgSelectReportType.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="visualclx.lib dsnapcrba.lib qrpt.lib teeqr.lib bdecds.lib vcldbx.lib"/>
+    <SPARELIBS value="rtl.lib vcldb.lib dbrtl.lib adortl.lib bdertl.lib vcldbx.lib ibxpress.lib 
+      cds.lib dsnap.lib bdecds.lib teeui.lib teedb.lib tee.lib dss.lib teeqr.lib 
+      qrpt.lib dsnapcrba.lib dsnapcon.lib bcbsmp.lib dbexpress.lib dbxcds.lib 
+      visualclx.lib vcl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclsmp.bpi dbrtl.bpi vcldb.bpi bdertl.bpi vcljpg.bpi 
+      tee.bpi ibxpress.bpi dss.bpi adortl.bpi vclx.bpi dsnap.bpi dsnapcon.bpi 
+      teedb.bpi cds.bpi bcbsmp.bpi dbexpress.bpi dbxcds.bpi designide.bpi 
+      teeui.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="rm_r61.cpp"/>
+    <INCLUDEPATH value="D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="E:\DCL\rmachine\lib;e:\bpl;D:\winapps\Borland\CBuilder6\Bin;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ID:\winapps\Borland\CBuilder6\Bin -I..\source -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -vi- -c -tWM"/>
+    <PFLAGS value="-N2$(BCB)\Projects\Lib -N0$(BCB)\Projects\Lib -$YD -$W -$O- -$A8 -v -JPHNE 
+      -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-l$(BCB)\Projects\Bpl -I$(BCB)\Projects\Lib 
+      -D&quot;ReportMachine Runtime Package 5.50&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="rm_r61.cpp" FORMNAME="" UNITNAME="rm_r61" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_r61.res" FORMNAME="" UNITNAME="rm_r61.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_about.pas" FORMNAME="RMFormAbout" UNITNAME="Rm_about" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_AngLbl.pas" FORMNAME="" UNITNAME="RM_AngLbl" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_BarCode.pas" FORMNAME="RM2DBarCodeForm" UNITNAME="Rm_barcode" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Chart.pas" FORMNAME="RMChartForm" UNITNAME="Rm_chart" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_CheckBox.pas" FORMNAME="" UNITNAME="RM_CheckBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_ChineseMoneyMemo.pas" FORMNAME="" UNITNAME="RM_ChineseMoneyMemo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Class.pas" FORMNAME="" UNITNAME="RM_Class" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Common.pas" FORMNAME="" UNITNAME="RM_Common" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Const.pas" FORMNAME="" UNITNAME="RM_Const" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Const1.pas" FORMNAME="" UNITNAME="RM_Const1" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Ctrls.pas" FORMNAME="" UNITNAME="RM_Ctrls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Dataset.pas" FORMNAME="" UNITNAME="RM_Dataset" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DBDialogCtls.pas" FORMNAME="" UNITNAME="RM_DBDialogCtls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Designer.pas" FORMNAME="RMDesignerForm" UNITNAME="Rm_designer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DesignerOptions.pas" FORMNAME="RMDesOptionsForm" UNITNAME="Rm_designeroptions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Diagonal.pas" FORMNAME="" UNITNAME="RM_Diagonal" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DialogCtls.pas" FORMNAME="" UNITNAME="RM_DialogCtls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DsgCtrls.pas" FORMNAME="" UNITNAME="RM_DsgCtrls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_bmp.pas" FORMNAME="RMBMPExportForm" UNITNAME="Rm_e_bmp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_emf.pas" FORMNAME="RMEMFExportForm" UNITNAME="Rm_e_emf" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_gif.pas" FORMNAME="RMGIFExportForm" UNITNAME="Rm_e_gif" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_E_Graphic.pas" FORMNAME="" UNITNAME="RM_E_Graphic" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_Jpeg.pas" FORMNAME="RMJPEGExportForm" UNITNAME="Rm_e_jpeg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_E_WMF.pas" FORMNAME="RMWMFExportForm" UNITNAME="Rm_e_wmf" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorBand.pas" FORMNAME="RMBandEditorForm" UNITNAME="Rm_editorband" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorBarCode.pas" FORMNAME="RMBarCodeForm" UNITNAME="Rm_editorbarcode" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorCalc.pas" FORMNAME="RMCalcMemoEditorForm" UNITNAME="Rm_editorcalc" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorDictionary.pas" FORMNAME="RMDictionaryForm" UNITNAME="Rm_editordictionary" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorExpr.pas" FORMNAME="RMFormExpressionBuilder" UNITNAME="Rm_editorexpr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorField.pas" FORMNAME="RMFieldsForm" UNITNAME="Rm_editorfield" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorFindReplace.pas" FORMNAME="RMFindReplaceForm" UNITNAME="Rm_editorfindreplace" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorFormat.pas" FORMNAME="RMFmtForm" UNITNAME="Rm_editorformat" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorFrame.pas" FORMNAME="RMFormFrameProp" UNITNAME="Rm_editorframe" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorGroup.pas" FORMNAME="RMGroupEditorForm" UNITNAME="Rm_editorgroup" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorHilit.pas" FORMNAME="RMHilightForm" UNITNAME="Rm_editorhilit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorMemo.pas" FORMNAME="RMEditorForm" UNITNAME="Rm_editormemo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorPicture.pas" FORMNAME="RMPictureEditorForm" UNITNAME="Rm_editorpicture" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorReportProp.pas" FORMNAME="RMReportProperty" UNITNAME="Rm_editorreportprop" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorStrings.pas" FORMNAME="ELStringsEditorDlg" UNITNAME="Rm_editorstrings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorTemplate.pas" FORMNAME="RMTemplNewForm" UNITNAME="Rm_editortemplate" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_FormReport.pas" FORMNAME="" UNITNAME="RM_FormReport" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Insp.pas" FORMNAME="" UNITNAME="RM_Insp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Ole.pas" FORMNAME="RMOleForm" UNITNAME="Rm_ole" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PageSetup.pas" FORMNAME="RMPageSetupForm" UNITNAME="Rm_pagesetup" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Parser.pas" FORMNAME="" UNITNAME="RM_Parser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PChart.pas" FORMNAME="" UNITNAME="RM_PChart" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PDBGrid.pas" FORMNAME="" UNITNAME="RM_PDBGrid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PdcsGrid.pas" FORMNAME="" UNITNAME="RM_PdcsGrid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PEhGrid.pas" FORMNAME="" UNITNAME="RM_PEhGrid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Printer.pas" FORMNAME="" UNITNAME="RM_Printer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Progr.pas" FORMNAME="RMProgressForm" UNITNAME="Rm_progr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PropAdds.pas" FORMNAME="" UNITNAME="RM_PropAdds" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PropInsp.pas" FORMNAME="" UNITNAME="RM_PropInsp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PRxCtls.pas" FORMNAME="" UNITNAME="RM_PRxCtls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PwwGrid.pas" FORMNAME="" UNITNAME="RM_PwwGrid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_RichEdit.pas" FORMNAME="RMRichForm" UNITNAME="Rm_richedit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_RxParaFmt.pas" FORMNAME="RMParaFormatDlg" UNITNAME="Rm_rxparafmt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Utils.pas" FORMNAME="" UNITNAME="RM_Utils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Wizard.pas" FORMNAME="" UNITNAME="RM_Wizard" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_WizardNewReport.pas" FORMNAME="RMTemplForm" UNITNAME="Rm_wizardnewreport" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wwRichEdit.pas" FORMNAME="RMwwRichForm" UNITNAME="Rm_wwrichedit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_ADO.pas" FORMNAME="RMDFormADOConnEdit" UNITNAME="Rmd_ado" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_BDE.pas" FORMNAME="RMDFormBDEDBProp" UNITNAME="Rmd_bde" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_DataPrv.pas" FORMNAME="RMDFormPreviewData" UNITNAME="Rmd_dataprv" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_DBWrap.pas" FORMNAME="" UNITNAME="RMD_DBWrap" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_Dbx.pas" FORMNAME="RMDFormDbxDBProp" UNITNAME="Rmd_dbx" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_DlgListField.pas" FORMNAME="RMDFieldsListForm" UNITNAME="Rmd_dlglistfield" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_DlgNewLookupField.pas" FORMNAME="RMDLookupFieldForm" UNITNAME="Rmd_dlgnewlookupfield" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_EditorField.pas" FORMNAME="RMDFieldsEditorForm" UNITNAME="Rmd_editorfield" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_Editorldlinks.pas" FORMNAME="RMDFieldsLinkForm" UNITNAME="Rmd_editorldlinks" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_ExpFrm.pas" FORMNAME="RMDFormReportExplorer" UNITNAME="Rmd_expfrm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_IBX.pas" FORMNAME="RMDFormIBXPropEdit" UNITNAME="Rmd_ibx" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_Qblnk.pas" FORMNAME="RMDFormQBLink" UNITNAME="Rmd_qblnk" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_QryDesigner.pas" FORMNAME="RMDQueryDesignerForm" UNITNAME="Rmd_qrydesigner" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_QueryParm.pas" FORMNAME="RMDParamsForm" UNITNAME="Rmd_queryparm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_ReportExplorer.pas" FORMNAME="" UNITNAME="RMD_ReportExplorer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vclsmp.bpi" FORMNAME="" UNITNAME="vclsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcldb.bpi" FORMNAME="" UNITNAME="vcldb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\bdertl.bpi" FORMNAME="" UNITNAME="bdertl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcljpg.bpi" FORMNAME="" UNITNAME="vcljpg" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\tee.bpi" FORMNAME="" UNITNAME="tee" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\ibxpress.bpi" FORMNAME="" UNITNAME="ibxpress" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dss.bpi" FORMNAME="" UNITNAME="dss" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\adortl.bpi" FORMNAME="" UNITNAME="adortl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dsnap.bpi" FORMNAME="" UNITNAME="dsnap" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dsnapcon.bpi" FORMNAME="" UNITNAME="dsnapcon" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\teedb.bpi" FORMNAME="" UNITNAME="teedb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\cds.bpi" FORMNAME="" UNITNAME="cds" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbexpress.bpi" FORMNAME="" UNITNAME="dbexpress" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbxcds.bpi" FORMNAME="" UNITNAME="dbxcds" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Preview.pas" FORMNAME="RMPreviewForm" UNITNAME="RM_Preview" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DsgForm.pas" FORMNAME="" UNITNAME="RM_DsgForm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DsgGridReport.pas" FORMNAME="RMGridReportDesignerForm" UNITNAME="RM_DsgGridReport" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorCellProp.pas" FORMNAME="RMCellPropForm" UNITNAME="RM_EditorCellProp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorCellWidth.pas" FORMNAME="RMEditCellWidthForm" UNITNAME="RM_EditorCellWidth" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorGridCols.pas" FORMNAME="RMGetGridColumnsForm" UNITNAME="RM_EditorGridCols" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorInsField.pas" FORMNAME="" UNITNAME="RM_EditorInsField" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Grid.pas" FORMNAME="" UNITNAME="RM_Grid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_GridReport.pas" FORMNAME="" UNITNAME="RM_GridReport" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="E:\Bpl\designide.bpi" FORMNAME="" UNITNAME="designide" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="E:\Bpl\teeui.bpi" FORMNAME="" UNITNAME="teeui" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_htm.pas" FORMNAME="RMHTMLExportForm" UNITNAME="RM_e_htm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorBandType.pas" FORMNAME="RMBandTypesForm" UNITNAME="RM_EditorBandType" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_Tiff.pas" FORMNAME="RMTiffExportForm" UNITNAME="RM_e_Tiff" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DBChart.pas" FORMNAME="RMDBChartForm" UNITNAME="RM_DBChart" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Vers.pas" FORMNAME="" UNITNAME="RM_TB97Vers" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Cmn.pas" FORMNAME="" UNITNAME="RM_TB97Cmn" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Cnst.pas" FORMNAME="" UNITNAME="RM_TB97Cnst" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Ctls.pas" FORMNAME="" UNITNAME="RM_TB97Ctls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Tlbr.pas" FORMNAME="" UNITNAME="RM_TB97Tlbr" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97Tlwn.pas" FORMNAME="" UNITNAME="RM_TB97Tlwn" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TB97.pas" FORMNAME="" UNITNAME="RM_TB97" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_txt.pas" FORMNAME="RMTXTExportForm" UNITNAME="RM_e_txt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_AsBarView.pas" FORMNAME="" UNITNAME="RM_AsBarView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_Cross.pas" FORMNAME="RMCrossForm" UNITNAME="RM_Cross" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_csv.pas" FORMNAME="RMCSVExportForm" UNITNAME="RM_e_csv" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_AsBarCode.pas" FORMNAME="" UNITNAME="RM_AsBarCode" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMInterpreter_Chart.pas" FORMNAME="" UNITNAME="RMInterpreter_Chart" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_AutoSearchField.pas" FORMNAME="" UNITNAME="RM_AutoSearchField" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_DlgFind.pas" FORMNAME="RMPreviewSearchForm" UNITNAME="RM_DlgFind" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_E_llPDF.pas" FORMNAME="" UNITNAME="RM_E_llPDF" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_main.pas" FORMNAME="" UNITNAME="RM_e_main" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_e_Xls.pas" FORMNAME="RMXLSExportForm" UNITNAME="RM_e_Xls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorConfirmReplace.pas" FORMNAME="RMConfirmReplaceDialog" UNITNAME="RM_EditorConfirmReplace" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorFieldAlias.pas" FORMNAME="RMEditorFieldAlias" UNITNAME="RM_EditorFieldAlias" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorHF.pas" FORMNAME="RMFormEditorHF" UNITNAME="RM_EditorHF" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorReplaceText.pas" FORMNAME="RMTextReplaceDialog" UNITNAME="RM_EditorReplaceText" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorReportMaster.pas" FORMNAME="RMFormReportMaster" UNITNAME="RM_EditorReportMaster" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_EditorSearchText.pas" FORMNAME="RMTextSearchDialog" UNITNAME="RM_EditorSearchText" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_GridReportMaster.pas" FORMNAME="" UNITNAME="RM_GridReportMaster" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_HtmlMemo.pas" FORMNAME="RMHtmlForm" UNITNAME="RM_htmlmemo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JclMime.pas" FORMNAME="" UNITNAME="rm_JclMime" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JVCLVer.pas" FORMNAME="" UNITNAME="rm_JVCLVer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvEditor.pas" FORMNAME="" UNITNAME="rm_JvEditor" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvHLEditor.pas" FORMNAME="" UNITNAME="rm_JvHLEditor" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvHLParser.pas" FORMNAME="" UNITNAME="rm_JvHLParser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter.pas" FORMNAME="" UNITNAME="rm_JvInterpreter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Classes.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Classes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Controls.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Controls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Db.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Db" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_DbTables.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_DBTables" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Dialogs.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Dialogs" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_ExtCtrls.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_ExtCtrls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Forms.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Forms" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Graphics.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Graphics" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_StdCtrls.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_StdCtrls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_System.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_System" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_SysUtils.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_SysUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Types.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Types" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_Windows.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_Windows" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreterConst.pas" FORMNAME="" UNITNAME="rm_JvInterpreterConst" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreterFm.pas" FORMNAME="" UNITNAME="rm_JvInterpreterFm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreterParser.pas" FORMNAME="" UNITNAME="rm_JvInterpreterParser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_JvRichEdit.pas" FORMNAME="" UNITNAME="RM_JvRichEdit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvTypes.pas" FORMNAME="" UNITNAME="rm_JvTypes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_PrintDlg.pas" FORMNAME="RMPrintDialogForm" UNITNAME="RM_PrintDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_ReportMaster.pas" FORMNAME="" UNITNAME="RM_ReportMaster" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_St2DBarC.pas" FORMNAME="" UNITNAME="RM_St2DBarC" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_StBarC.pas" FORMNAME="" UNITNAME="RM_StBarC" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_StBase.pas" FORMNAME="" UNITNAME="RM_StBase" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_StConst.pas" FORMNAME="" UNITNAME="RM_StConst" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_TntRichEdit.pas" FORMNAME="RMTntRichForm" UNITNAME="RM_TntRichEdit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawBIFF8.pas" FORMNAME="" UNITNAME="RM_wawBIFF8" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawConsts.pas" FORMNAME="" UNITNAME="RM_wawConsts" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawExcel.pas" FORMNAME="" UNITNAME="RM_wawExcel" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawExcelfmt.pas" FORMNAME="" UNITNAME="RM_wawExcelFmt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawFormula.pas" FORMNAME="" UNITNAME="RM_wawFormula" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawFormula_iftab.pas" FORMNAME="" UNITNAME="RM_wawFormula_iftab" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wawWriters.pas" FORMNAME="" UNITNAME="RM_wawWriters" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_wzGridStd.pas" FORMNAME="" UNITNAME="RM_wzGridStd" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_ZlibEx.pas" FORMNAME="" UNITNAME="rm_ZLibEx" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_DlgSelectReportType.pas" FORMNAME="RMDSelectReportTypeForm" UNITNAME="RMD_DlgSelectReportType" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RMD_midas.pas" FORMNAME="" UNITNAME="RMD_midas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvWin32.pas" FORMNAME="" UNITNAME="rm_JvWin32" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JclBase.pas" FORMNAME="" UNITNAME="rm_JclBase" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JclResources.pas" FORMNAME="" UNITNAME="rm_JclResources" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JclStrings.pas" FORMNAME="" UNITNAME="rm_JclStrings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JclWideStrings.pas" FORMNAME="" UNITNAME="rm_JclWideStrings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvComponentBase.pas" FORMNAME="" UNITNAME="rm_JvComponentBase" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvConsts.pas" FORMNAME="" UNITNAME="rm_JvConsts" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvEditorCommon.pas" FORMNAME="" UNITNAME="rm_JvEditorCommon" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvExControls.pas" FORMNAME="" UNITNAME="rm_JvExControls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvFixedEditPopup.pas" FORMNAME="" UNITNAME="rm_JvFixedEditPopUp" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvInterpreter_JvUtils.pas" FORMNAME="" UNITNAME="rm_JvInterpreter_JvUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvJCLUtils.pas" FORMNAME="" UNITNAME="rm_JvJCLUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvJVCLUtils.pas" FORMNAME="" UNITNAME="rm_JvJVCLUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvResources.pas" FORMNAME="" UNITNAME="rm_JvResources" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvThemes.pas" FORMNAME="" UNITNAME="rm_JvThemes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvUnicodeCanvas.pas" FORMNAME="" UNITNAME="rm_JvUnicodeCanvas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rm_JvVCL5Utils.pas" FORMNAME="" UNITNAME="rm_JvVCL5Utils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_System.pas" FORMNAME="" UNITNAME="RM_System" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RM_CodeGen.pas" FORMNAME="" UNITNAME="RM_CodeGen" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=3
+MinorVer=1
+Release=1
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=3.1.1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=E:\DCL\rmachine\lib;e:\bpl;D:\winapps\Borland\CBuilder6\Bin;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item1=e:\bpl;D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item2=D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item3=..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item4=..\source;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlIntOutputDir]
+Count=5
+Item0=$(BCB)\Projects\Lib
+Item1=$(BCB)\Lib
+Item2=$(BCB)\Lib\
+Item3=..\lib
+Item4=$(BCB)\Lib\Obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=8
+Item0=$(BCB)\Projects\Bpl\
+Item1=$(BCB)\Projects\Bpl
+Item2=e:\bpl\
+Item3=e:\bpl
+Item4=$(BCB)\Projects\Lib\
+Item5=$(BCB)\Projects\Lib
+Item6=$(BCB)\Lib\
+Item7=$(BCB)\Lib
+
+[HistoryLists\hIBPIOutputDir]
+Count=4
+Item0=$(BCB)\Projects\Bpl
+Item1=e:\bpl
+Item2=$(BCB)\Projects\Bpl\
+Item3=$(BCB)\Lib
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

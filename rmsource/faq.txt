@@ -1,0 +1,48 @@
+Q: how to use script in report?
+A: is like object pascal,such as:var,const,for,while,if
+
+Q: 用script,如何对TRMGridReport中如何对某个cell(每个cell都有一个TRMView)的TRMView的事件赋值:
+A: 这样，麻烦点： 
+   unit Report;
+
+   procedure Memo1_OnBeforePrint(Sender: TObject);
+   begin
+   //your code 
+   end;
+
+   procedure Page1_OnAfterCreateObjects(Sender: TObject);
+   begin
+     Memo1.OnBeforePrint := Memo1_OnBeforePrint;
+   end;
+
+   procedure main;
+   begin
+     Page1.OnAfterCreateObjects := Page1_OnAfterCreateObjects;
+   end;
+
+Q: 用script,如何对TRMReport中的某个TRMView的事件赋值:
+A: 得这样：
+   unit Report;
+
+   procedure Memo1_OnBeforePrint(Sender: TObject);
+   begin
+   //your code 
+   end;
+
+   procedure main;
+   begin
+     Memo1.OnBeforePrint := Memo1_OnBeforePrint;
+   end;
+
+Q: 如何打印wwDBGrid?
+A: 修改rm.inc，如果想支持RX,GIF,JPEG,DimandAccess,Halcyon,DBISAM,
+   EHLib,也需要修改rm.inc
+
+  //InfoPower
+  //If you want to Use TRMwwGridReport for TwwDBGrid, uncomment
+  //the following line:
+  //{$DEFINE InfoPower}  //修改这行，去掉"//"
+
+Q: TRMFormReport怎莫不能打印RX控件?
+A: 在主Form上放一个TRMPrintControls控件就可以了，如果像打印InfoPower控件，
+   需要在主Form上放一个TRMwwGridReport控件，打印EHLib，放一个TRMPrintEHLib.

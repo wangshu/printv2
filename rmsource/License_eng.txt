@@ -1,0 +1,83 @@
+     ReportMachine Report Engine - PRODUCT LICENSE INFORMATION
+     ---------------------------------------------------------
+
+NOTICE TO USERS: CAREFULLY READ THE FOLLOWING LEGAL
+     AGREEMENT. USE OF THE SOFTWARE PROVIDED WITH THIS
+     AGREEMENT (THE "SOFTWARE") CONSTITUTES YOUR
+     ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THE
+     TERMS OF THIS AGREEMENT, DO NOT INSTALL AND/OR USE THIS
+     SOFTWARE. USER'S USE OF THIS SOFTWARE IS CONDITIONED
+     UPON COMPLIANCE BY USER WITH THE TERMS OF THIS
+     AGREEMENT.
+
+LICENSE GRANT. Wang Haifeng grants you a license to use one copy of
+     the version of this software on any one hardware product for as many
+     licenses as you purchase. "You" means the company, entity or individual
+     whose funds are used to pay the license fee. "Use" means storing,
+     loading, installing, executing or displaying the software. You may not
+     modify the software or disable any licensing or control features of the
+     software except as an intended part of the software's
+     programming features. This license is not transferable to any other hardware 
+     product or other company, entity, or individual.
+
+ 1. All copyrights to ReportMachine are exclusively owned by the author
+    - Wang Haifeng.
+
+ 2. Anyone may use trial version of this software as long as you want.
+    Full version of ReportMachine shipped with full source code. To use full version of
+    ReportMachine, you MUST register.
+
+ 3. Once  registered,  the  user  is  granted a non-exclusive license to use
+    ReportMachine  on  one  computer  (i.e.  a  single cpu), for any legal
+    purpose,  at  a  time.  Registered  users gets technical support and can
+    upgrade  to  the  next  version  of  ReportMachine  with no additional
+    payment.  The  registered  ReportMachine software may not be rented or
+    leased, but may be permanently  transferred, if the person  receiving it
+    agrees  to  terms  of  this  license.  If the software is an update, the
+    transfer must include the update and all previous versions. 
+
+ 4. Single copy License means Can only Install ReportMachine on One computer
+    at the same time. If Registered User is individual(notcompany, entity), You 
+    Can Install on what computer what is you at the same time.
+    Site license (unlimited number of copies) means Can Intall 
+    On On unlimited number computers at the same time.
+
+ 5. You  may  not  use,  copy,  emulate,  clone,  rent, lease, sell, modify,
+    decompile,  disassemble,  otherwise  reverse  engineer,  or transfer the
+    licensed  program,  or  any  subset  of  the licensed program, except as 
+    provided  for in this agreement.  Any such unauthorized use shall result
+    in immediate and automatic termination of this license and may result in
+    criminal and/or civil prosecution.
+
+    All rights not expressly granted here are reserved by
+    Wang Haifeng.
+
+LIMITED WARRANTY. THIS SOFTWARE IS PROVIDED ON AN "AS IS"
+     BASIS. Wang Haifeng DISCLAIMS ALL WARRANTIES RELATING TO
+     THIS SOFTWARE, WHETHER EXPRESSED OR IMPLIED, INCLUDING
+     BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF
+     MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+     NEITHER [COMPANY] NOR ANYONE ELSE WHO HAS BEEN
+     INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THIS
+     SOFTWARE SHALL BE LIABLE FOR ANY INDIRECT,
+     CONSEQUENTIAL, OR INCIDENTAL DAMAGES ARISING OUT OF
+     THE USE OR INABILITY TO USE SUCH SOFTWARE, EVEN IF
+     [COMPANY] HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+     DAMAGES OR CLAIMS. THE PERSON USING THE SOFTWARE
+     BEARS ALL RISK AS TO THE QUALITY AND PERFORMANCE OF
+     THE SOFTWARE.
+
+INSPECTION AND TESTING. You agree and acknowledge that you will
+     thoroughly inspect and test the software for all of your purposes upon
+     commencement of your use. Any suit or other legal action, claim or any
+     arbitration relating in any way to this agreement or software covered by it
+     must be officially filed or officially commenced no later than 90 days
+     after your first use of the software.
+
+ENTIRE AGREEMENT. This is the entire agreement between you and
+     Wang Haifeng which supersedes any prior agreement or understanding,
+     whether written or oral, relating to the subject matter of this license.
+
+    Thank you for using ReportMachine!
+
+                                            Wang Haifeng
