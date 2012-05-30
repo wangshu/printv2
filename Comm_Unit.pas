@@ -3,13 +3,16 @@ unit Comm_Unit;
 interface
 uses
       Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-      Dialogs, StdCtrls, nb30;
+      Dialogs, StdCtrls, nb30,ActiveX;
 
 function NBGetAdapterAddress(a: Integer): string;
 function RandomDate(date1: string; date2: string; formatstr: string): string;
 function randomDatetime(begindate: string; enddate: string): string;
+ function RandomInt(int1: integer; int2: integer; formatstr: string): string;
+
 function RandomTime(formatstr: string): string;
 function getMD5(value: string): string;
+function getGUID:string;
 implementation
 
 uses
@@ -127,18 +130,24 @@ end;
 
 function randomDatetime(begindate: string; enddate: string): string;
 begin
-
+    Result:=RandomDate(begindate,enddate,'')+' '+RandomTime('hh:mm:ss');
 end;
 
 function RandomInt(int1: integer; int2: integer; formatstr: string): string;
 begin
-      Result := FormatFloat(formatstr, int1 + random(round(int2 - int1)));
+      Result := FormatFloat(formatstr, int1 + random(round(int2 - int1))+random);
 end;
 
 function getMD5(value: string): string;
-
 begin
       Result := MD5Print(MD5String(value));
+end;
+function getGUID:string;
+var
+  guid:TGUID;
+begin
+  CoCreateGuid(Guid);
+  Result:=GUIDToString(guid) ;
 end;
 
 end.

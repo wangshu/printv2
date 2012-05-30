@@ -75,9 +75,9 @@ public partial class UserInfo : System.Web.UI.Page
     {
         if (id == null)
         {
-            String SQL = "insert into userinfo (guid   ,user_name  ,buy_date   ,stop_date  ,active  ,memo) values ('{0}','{1}','{2}','{3}',{4},'{5}' )";
+            String SQL = "insert into userinfo (guid   ,user_name  ,buy_date   ,stop_date  ,active  ,memo,parent_id) values ('{0}','{1}','{2}','{3}',{4},'{5}','{6}' )";
 
-            SQL = string.Format(SQL, tb_guid.Text,tb_username.Text,tb_buydate.Text,tb_stopdate.Text,rb_active.Checked?"1":"0",tb_memo.Text);
+            SQL = string.Format(SQL, tb_guid.Text, tb_username.Text, tb_buydate.Text, tb_stopdate.Text, rb_active.Checked ? "1" : "0", tb_memo.Text, Session["uid"].ToString());
             DbCommand dbc = dbh.GetSqlStringCommond(SQL);
               dbh.ExecuteNonQuery(dbc);
         }

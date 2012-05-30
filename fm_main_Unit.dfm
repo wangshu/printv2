@@ -130,6 +130,7 @@ object frm_main: Tfrm_main
           Height = 25
           Caption = #25171#21360
           TabOrder = 2
+          OnClick = cxButton1Click
         end
         object cxButton2: TcxButton
           Left = 488
@@ -138,11 +139,13 @@ object frm_main: Tfrm_main
           Height = 25
           Caption = #29983#25104
           TabOrder = 1
+          OnClick = cxButton2Click
         end
-        object cxSpinEdit1: TcxSpinEdit
+        object sedt_rowcount: TcxSpinEdit
           Left = 144
           Top = 20
           TabOrder = 0
+          Value = 1
           Width = 121
         end
       end
@@ -155,9 +158,11 @@ object frm_main: Tfrm_main
         TabOrder = 1
         object cxGrid1DBTableView1: TcxGridDBTableView
           NavigatorButtons.ConfirmDelete = False
+          DataController.DataSource = DataSource1
           DataController.Summary.DefaultGroupSummaryItems = <>
           DataController.Summary.FooterSummaryItems = <>
           DataController.Summary.SummaryGroups = <>
+          OptionsView.ColumnAutoWidth = True
           OptionsView.GroupByBox = False
         end
         object cxGrid1Level1: TcxGridLevel
@@ -285,5 +290,9 @@ object frm_main: Tfrm_main
     SortOptions = []
     Left = 80
     Top = 16
+  end
+  object DataSource1: TDataSource
+    Left = 184
+    Top = 24
   end
 end

@@ -1948,8 +1948,8 @@ type
     procedure ShowBandByType(aBandType: TRMBandType);
     procedure ChangePaper(ASize, AWidth, AHeight, ABin: Integer; AOr: TRMPrinterOrientation);
 
-    property PageWidth: Longint read FPageWidth;
-    property PageHeight: Longint read FPageHeight;
+    property PageWidth: Longint read FPageWidth write FPageWidth;
+    property PageHeight: Longint read FPageHeight write FPageHeight;
     property PageSize: Integer read FPageSize;
     property PageOrientation: TRMPrinterOrientation read FPageOrientation;
     property PageBin: Integer read FPageBin write FPageBin;

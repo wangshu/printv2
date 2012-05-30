@@ -108,7 +108,7 @@ begin
       end else
       begin
         rg_master.ItemIndex:=0;
-        
+         cxRadioGroup3PropertiesEditValueChanged(rg_master);
       end;
       edt_item_name.Text := node.AttributeByName[ITEM_TITLE];
 end;

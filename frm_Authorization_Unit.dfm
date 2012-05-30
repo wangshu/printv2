@@ -14,14 +14,13 @@ object frm_Authorization: Tfrm_Authorization
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
-  OnClick = FormClick
   OnShow = FormShow
   PixelsPerInch = 120
   TextHeight = 15
   object Label1: TLabel
     Left = 16
     Top = 20
-    Width = 106
+    Width = 177
     Height = 15
     Caption = #26381#21153#22120#36830#25509#20013'..'
     Font.Charset = GB2312_CHARSET
@@ -31,10 +30,10 @@ object frm_Authorization: Tfrm_Authorization
     Font.Style = []
     ParentFont = False
   end
-  object cxProgressBar1: TcxProgressBar
-    Left = 152
-    Top = 16
-    TabOrder = 0
-    Width = 121
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 136
+    Top = 8
   end
 end

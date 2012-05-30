@@ -24,6 +24,7 @@ public class WebService : System.Web.Services.WebService {
     [WebMethod]
     public bool CheckOpen(String Uid) {
         string sql;
+        dbh = new DbHelper();
         sql = string.Format("select count(*) from userinfo where guid='{0}' and  active=1", Uid);
         DbCommand dbc = dbh.GetSqlStringCommond(sql);
         String s = dbh.ExecuteScalar(dbc).ToString();

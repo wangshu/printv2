@@ -43,7 +43,7 @@ var
 
 implementation
 
-uses Symbol_Unit;
+uses Symbol_Unit, fm_main_Unit, Comm_Unit;
 
 
 
@@ -61,6 +61,10 @@ begin
             cb_reporttype.ItemIndex := cb_font.Properties.Items.IndexOf(node.AttributeByName[REPORT_TYPE]);
             filename := node.AttributeByName[REPORT_FILE_NAME];
       end
+      else
+      begin
+          filename:=getGUID+'.rmf';
+      end;
 
 end;
 
@@ -72,6 +76,7 @@ begin
       node.AttributeByName[REPORT_FONT] := cb_font.Text;
       node.AttributeByName[REPORT_TYPE] := cb_reporttype.Text;
       node.AttributeByName[REPORT_FILE_NAME] := filename;
+      CopyFile('template.rmf',PChar(filename),true);
       ModalResult := mrOk;
 end;
 

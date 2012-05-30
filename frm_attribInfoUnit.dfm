@@ -3,7 +3,7 @@ object frm_attribInfo: Tfrm_attribInfo
   Top = 233
   BorderIcons = []
   BorderStyle = bsDialog
-  Caption = 'frm_attribInfo'
+  Caption = #23646#24615#31649#29702
   ClientHeight = 406
   ClientWidth = 576
   Color = clBtnFace
@@ -69,7 +69,7 @@ object frm_attribInfo: Tfrm_attribInfo
       Top = 120
       Width = 572
       Height = 218
-      ActivePage = cxTabSheet3
+      ActivePage = cxTabSheet1
       Align = alBottom
       TabOrder = 2
       ClientRectBottom = 218
@@ -79,7 +79,7 @@ object frm_attribInfo: Tfrm_attribInfo
         Caption = #25968#20540#22411
         ImageIndex = 0
         object Label2: TLabel
-          Left = 56
+          Left = 296
           Top = 107
           Width = 57
           Height = 20
@@ -87,7 +87,7 @@ object frm_attribInfo: Tfrm_attribInfo
           Caption = #26368#22823
         end
         object Label3: TLabel
-          Left = 296
+          Left = 48
           Top = 107
           Width = 57
           Height = 20
@@ -112,13 +112,13 @@ object frm_attribInfo: Tfrm_attribInfo
           Width = 447
         end
         object sedt_num_max: TcxSpinEdit
-          Left = 128
+          Left = 368
           Top = 104
           TabOrder = 1
           Width = 121
         end
         object sedt_num_min: TcxSpinEdit
-          Left = 368
+          Left = 120
           Top = 104
           TabOrder = 2
           Width = 121
@@ -128,7 +128,7 @@ object frm_attribInfo: Tfrm_attribInfo
         Caption = #26085#26399#26102#38388#22411
         ImageIndex = 1
         object Label4: TLabel
-          Left = 56
+          Left = 288
           Top = 107
           Width = 57
           Height = 20
@@ -136,7 +136,7 @@ object frm_attribInfo: Tfrm_attribInfo
           Caption = #26368#22823
         end
         object Label5: TLabel
-          Left = 296
+          Left = 48
           Top = 107
           Width = 57
           Height = 20
@@ -177,7 +177,7 @@ object frm_attribInfo: Tfrm_attribInfo
           Width = 447
         end
         object medt_date_max: TcxMaskEdit
-          Left = 128
+          Left = 360
           Top = 104
           Properties.MaskKind = emkRegExpr
           Properties.EditMask = 
@@ -188,7 +188,7 @@ object frm_attribInfo: Tfrm_attribInfo
           Width = 121
         end
         object medt_date_min: TcxMaskEdit
-          Left = 368
+          Left = 120
           Top = 104
           Properties.MaskKind = emkRegExpr
           Properties.EditMask = 

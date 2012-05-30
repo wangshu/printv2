@@ -6,14 +6,14 @@ uses
       Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
       Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
       cxContainer, cxEdit, dxSkinsCore, dxSkinsDefaultPainters, cxProgressBar,
-      StdCtrls;
+      StdCtrls, ExtCtrls;
 
 type
       Tfrm_Authorization = class(TForm)
-            cxProgressBar1: TcxProgressBar;
             Label1: TLabel;
+    Timer1: TTimer;
             procedure FormShow(Sender: TObject);
-            procedure FormClick(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
       private
     { Private declarations }
       public
@@ -25,17 +25,35 @@ var
 
 implementation
 
+uses frm_attribInfoUnit, webservice, Comm_Unit;
+
 {$R *.dfm}
 
 procedure Tfrm_Authorization.FormShow(Sender: TObject);
+
 begin
-      Application.ProcessMessages;
-      ModalResult := mrOk;
+   Timer1.Enabled:=true;
 end;
 
-procedure Tfrm_Authorization.FormClick(Sender: TObject);
+procedure Tfrm_Authorization.Timer1Timer(Sender: TObject);
+var
+  service:WebServiceSoap;
 begin
-      close;
+     service:=GetWebServiceSoap() ;
+  try
+    if service.CheckOpen(getMD5(NBGetAdapterAddress(0))) then
+    begin
+
+      Application.ProcessMessages;
+      ModalResult := mrOk;
+      end
+      else
+      begin
+        ModalResult := mrCancel;
+      end;
+   except
+        ModalResult := mrCancel;
+   end;
 end;
 
 end.
