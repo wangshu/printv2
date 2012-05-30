@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppPackage</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{0AD9BF02-83DF-4FEC-BFC3-8B528DB50C3C}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="libraries" value="dsnapcon.lib dsnap.lib vcldbx.lib"/>
+        <property category="build.node" name="name" value="rm_r101.bpl"/>
+        <property category="build.node" name="packages" value="rtl;vcl;vclsmp;dbrtl;vcldb;bdertl;vcljpg;tee;ibxpress;dss;adortl;vclx;dsnap;dsnapcon;teedb;bcbsmp;dbexpress;dbxcds;designide;teeui"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcldb.lib dbrtl.lib adortl.lib bdertl.lib vcldbx.lib ibxpress.lib dsnap.lib dsnapcon.lib dsnap.lib teeui.lib teedb.lib tee.lib dss.lib dsnapcon.lib bcbsmp.lib dbexpress.lib dbxcds.lib vcl.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.4.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.A.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AK.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AU.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="$(BDS)\Bin"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="..\source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgx.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.V0.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vx.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.X.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.k.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.1" value="$(BDS)\Projects\Lib\"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.p.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pr.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.r.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.rd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.winl.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.y.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.1" value="D:\winapps\Borland\CBuilder6\Bin"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.2" value="..\source"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.3" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.5" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.1" value="d:\winapps\borland\cbuilder6\Projects\Lib\"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.1" value="YD"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.2" value="W"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A1.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GD.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GS.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.J.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPH.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPHN.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.1" value="$(BDS)\Projects\Lib\"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.1" value="$(BDS)\Projects\Lib\"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value=".\"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="D:\winapps\Borland\CBuilder6\Bin"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="..\source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.boa.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg" value="cpp"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.-w-.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;ReportMachine Runtime Package 5.08&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.GpdGpr.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpr.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.1" value="$(BDS)\Projects\Lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="E:\DCL\rmachine\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="e:\bpl"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="D:\winapps\Borland\CBuilder6\Bin"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="$(BDS)\Projects\Lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.1" value="$(BDS)\Projects\Bpl"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.m.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.map_segments.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="$(BDS)\Projects\Bpl\"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.s.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0pkg32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="Memmgr.Lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="container.SelectedWarnings.containerenabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.a.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.1" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.2" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.ml.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.mu.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.o.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.oi.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.op.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.1" value="$(BDS)\Projects\Lib\"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.merge" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.r.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.w0.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.zi.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.zn.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="rm_r101.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rm_r101" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_r101.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="rm_r101.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_about.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_about" FORMNAME="RMFormAbout" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_AngLbl.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_AngLbl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_BarCode.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_BarCode" FORMNAME="RM2DBarCodeForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Chart.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Chart" FORMNAME="RMChartForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_CheckBox.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_CheckBox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_ChineseMoneyMemo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_ChineseMoneyMemo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Class.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Class" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Common.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Common" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Const.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Const" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Const1.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Const1" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Ctrls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Ctrls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Dataset.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Dataset" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DBDialogCtls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DBDialogCtls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Designer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Designer" FORMNAME="RMDesignerForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DesignerOptions.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DesignerOptions" FORMNAME="RMDesOptionsForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Diagonal.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Diagonal" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DialogCtls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DialogCtls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DsgCtrls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DsgCtrls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_bmp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_bmp" FORMNAME="RMBMPExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_emf.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_emf" FORMNAME="RMEMFExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_gif.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_gif" FORMNAME="RMGIFExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_E_Graphic.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_E_Graphic" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_Jpeg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_Jpeg" FORMNAME="RMJPEGExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_E_WMF.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_E_WMF" FORMNAME="RMWMFExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorBand.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorBand" FORMNAME="RMBandEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorBarCode.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorBarCode" FORMNAME="RMBarCodeForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorCalc.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorCalc" FORMNAME="RMCalcMemoEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorDictionary.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorDictionary" FORMNAME="RMDictionaryForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorExpr.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorExpr" FORMNAME="RMFormExpressionBuilder" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorField" FORMNAME="RMFieldsForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorFindReplace.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorFindReplace" FORMNAME="RMFindReplaceForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorFormat.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorFormat" FORMNAME="RMFmtForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorFrame.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorFrame" FORMNAME="RMFormFrameProp" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorGroup.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorGroup" FORMNAME="RMGroupEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorHilit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorHilit" FORMNAME="RMHilightForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorMemo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorMemo" FORMNAME="RMEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorPicture.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorPicture" FORMNAME="RMPictureEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorReportProp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorReportProp" FORMNAME="RMReportProperty" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorStrings.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorStrings" FORMNAME="ELStringsEditorDlg" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorTemplate.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorTemplate" FORMNAME="RMTemplNewForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_FormReport.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_FormReport" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Insp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Insp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Ole.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Ole" FORMNAME="RMOleForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PageSetup.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PageSetup" FORMNAME="RMPageSetupForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Parser.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Parser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PChart.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PChart" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PDBGrid.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PDBGrid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PdcsGrid.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PdcsGrid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PEhGrid.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PEhGrid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Printer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Printer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Progr.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Progr" FORMNAME="RMProgressForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PropAdds.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PropAdds" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PropInsp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PropInsp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PRxCtls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PRxCtls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PwwGrid.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PwwGrid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_RichEdit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_RichEdit" FORMNAME="RMRichForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_RxParaFmt.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_RxParaFmt" FORMNAME="RMParaFormatDlg" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Utils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Utils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Wizard.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Wizard" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_WizardNewReport.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_WizardNewReport" FORMNAME="RMTemplForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wwRichEdit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wwRichEdit" FORMNAME="RMwwRichForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_ADO.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_ADO" FORMNAME="RMDFormADOConnEdit" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_BDE.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_BDE" FORMNAME="RMDFormBDEDBProp" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_DataPrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_DataPrv" FORMNAME="RMDFormPreviewData" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_DBWrap.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_DBWrap" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_Dbx.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_Dbx" FORMNAME="RMDFormDbxDBProp" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_DlgListField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_DlgListField" FORMNAME="RMDFieldsListForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_DlgNewLookupField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_DlgNewLookupField" FORMNAME="RMDLookupFieldForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_EditorField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_EditorField" FORMNAME="RMDFieldsEditorForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_Editorldlinks.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_Editorldlinks" FORMNAME="RMDFieldsLinkForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_ExpFrm.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_ExpFrm" FORMNAME="RMDFormReportExplorer" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_IBX.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_IBX" FORMNAME="RMDFormIBXPropEdit" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_Qblnk.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_Qblnk" FORMNAME="RMDFormQBLink" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_QryDesigner.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_QryDesigner" FORMNAME="RMDQueryDesignerForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_QueryParm.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_QueryParm" FORMNAME="RMDParamsForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_ReportExplorer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_ReportExplorer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\rtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="rtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vclsmp.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vclsmp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbrtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dbrtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcldb.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcldb" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\bdertl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="bdertl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vcljpg.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcljpg" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\tee.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="tee" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\ibxpress.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="ibxpress" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dss.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dss" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\adortl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="adortl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\vclx.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vclx" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dsnap.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dsnap" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dsnapcon.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dsnapcon" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\teedb.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="teedb" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\bcbsmp.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="bcbsmp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbexpress.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dbexpress" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D:\winapps\Borland\CBuilder6\Bin\dbxcds.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="dbxcds" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Preview.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Preview" FORMNAME="RMPreviewForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DsgForm.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DsgForm" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DsgGridReport.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DsgGridReport" FORMNAME="RMGridReportDesignerForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorCellProp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorCellProp" FORMNAME="RMCellPropForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorCellWidth.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorCellWidth" FORMNAME="RMEditCellWidthForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorGridCols.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorGridCols" FORMNAME="RMGetGridColumnsForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorInsField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorInsField" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Grid.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Grid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_GridReport.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_GridReport" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="E:\Bpl\designide.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="designide" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="E:\Bpl\teeui.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="teeui" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_htm.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_htm" FORMNAME="RMHTMLExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorBandType.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorBandType" FORMNAME="RMBandTypesForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_Tiff.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_Tiff" FORMNAME="RMTiffExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DBChart.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DBChart" FORMNAME="RMDBChartForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Vers.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Vers" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Cmn.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Cmn" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Cnst.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Cnst" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Ctls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Ctls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Tlbr.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Tlbr" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97Tlwn.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97Tlwn" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TB97.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TB97" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_txt.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_txt" FORMNAME="RMTXTExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_AsBarView.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_AsBarView" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_Cross.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_Cross" FORMNAME="RMCrossForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_csv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_csv" FORMNAME="RMCSVExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_AsBarCode.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_AsBarCode" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RMInterpreter_Chart.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMInterpreter_Chart" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_AutoSearchField.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_AutoSearchField" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_DlgFind.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_DlgFind" FORMNAME="RMPreviewSearchForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_E_llPDF.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_E_llPDF" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_main.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_main" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_e_Xls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_e_Xls" FORMNAME="RMXLSExportForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorConfirmReplace.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorConfirmReplace" FORMNAME="RMConfirmReplaceDialog" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorFieldAlias.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorFieldAlias" FORMNAME="RMEditorFieldAlias" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorHF.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorHF" FORMNAME="RMFormEditorHF" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorReplaceText.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorReplaceText" FORMNAME="RMTextReplaceDialog" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorReportMaster.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorReportMaster" FORMNAME="RMFormReportMaster" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_EditorSearchText.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_EditorSearchText" FORMNAME="RMTextSearchDialog" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_GridReportMaster.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_GridReportMaster" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_HtmlMemo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_HtmlMemo" FORMNAME="RMHtmlForm" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvEditor.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvEditor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvHLEditor.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvHLEditor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvHLParser.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvHLParser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Classes.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Classes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Controls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Controls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Db.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Db" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_DbTables.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_DbTables" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Dialogs.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Dialogs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_ExtCtrls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_ExtCtrls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Forms.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Forms" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Graphics.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Graphics" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_StdCtrls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_StdCtrls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_System.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_System" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_SysUtils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_SysUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreterConst.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreterConst" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreterFm.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreterFm" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreterParser.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreterParser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_PrintDlg.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_PrintDlg" FORMNAME="RMPrintDialogForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_ReportMaster.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_ReportMaster" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_St2DBarC.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_St2DBarC" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_StBarC.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_StBarC" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_StBase.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_StBase" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_StConst.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_StConst" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_TntRichEdit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_TntRichEdit" FORMNAME="RMTntRichForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawBIFF8.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawBIFF8" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawConsts.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawConsts" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawExcel.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawExcel" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawExcelfmt.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawExcelfmt" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawFormula.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawFormula" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawFormula_iftab.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawFormula_iftab" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wawWriters.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wawWriters" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_wzGridStd.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_wzGridStd" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_ZlibEx.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_ZlibEx" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_DlgSelectReportType.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_DlgSelectReportType" FORMNAME="RMDSelectReportTypeForm" DESIGNCLASS=""/>
+        <FILE FILENAME="RMD_midas.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RMD_midas" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvUnicodeCanvas.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvUnicodeCanvas" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JclBase.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JclBase" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JclResources.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JclResources" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JclStrings.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JclStrings" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JclWideStrings.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JclWideStrings" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JVCLVer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JVCLVer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvComponentBase.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvComponentBase" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvConsts.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvConsts" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvEditorCommon.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvEditorCommon" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvExControls.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvExControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvFixedEditPopup.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvFixedEditPopup" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_JvUtils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_JvUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Types.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Types" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvInterpreter_Windows.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvInterpreter_Windows" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvJCLUtils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvJCLUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvJVCLUtils.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvJVCLUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvResources.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvResources" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_JvRichEdit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_JvRichEdit" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvThemes.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvThemes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rm_JvTypes.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rm_JvTypes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_System.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_System" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RM_CodeGen.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="RM_CodeGen" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">3</VersionInfo>
+          <VersionInfo Name="MinorVer">1</VersionInfo>
+          <VersionInfo Name="Release">1</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">2052</VersionInfo>
+          <VersionInfo Name="CodePage">936</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">3.1.1.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Count">2</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item0">D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item1">..\source;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+        </HistoryLists_hlIncludePath>
+        <HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Count">5</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item0">E:\DCL\rmachine\lib;e:\bpl;D:\winapps\Borland\CBuilder6\Bin;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item1">e:\bpl;D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item2">D:\winapps\Borland\CBuilder6\Bin;..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item3">..\source;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item4">..\source;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+        </HistoryLists_hlLibraryPath>
+        <HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Count">1</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item0">$(BCB)\source\vcl</HistoryLists_hlDebugSourcePath>
+        </HistoryLists_hlDebugSourcePath>
+        <HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Count">5</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item0">$(BCB)\Projects\Lib</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item1">$(BCB)\Lib</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item2">$(BCB)\Lib\</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item3">..\lib</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item4">$(BCB)\Lib\Obj</HistoryLists_hlIntOutputDir>
+        </HistoryLists_hlIntOutputDir>
+        <HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Count">8</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item0">$(BCB)\Projects\Bpl\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item1">$(BCB)\Projects\Bpl</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item2">e:\bpl\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item3">e:\bpl</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item4">$(BCB)\Projects\Lib\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item5">$(BCB)\Projects\Lib</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item6">$(BCB)\Lib\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item7">$(BCB)\Lib</HistoryLists_hlFinalOutputDir>
+        </HistoryLists_hlFinalOutputDir>
+        <HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Count">4</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item0">$(BCB)\Projects\Bpl</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item1">e:\bpl</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item2">$(BCB)\Projects\Bpl\</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item3">$(BCB)\Lib</HistoryLists_hIBPIOutputDir>
+        </HistoryLists_hIBPIOutputDir>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<Source>
+			<Source Name="MainSource">rm_r101.cpp</Source>
+		</Source>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

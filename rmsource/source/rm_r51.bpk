@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="d:\winapps\borland\cbuilder5\Projects\Bpl\rm_r51.bpl"/>
+    <OBJFILES value="d:\winapps\borland\cbuilder5\Projects\Lib\RM_about.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_AngLbl.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_BarCode.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Chart.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_CheckBox.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_ChineseMoneyMemo.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Class.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Common.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Const.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Const1.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Ctrls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Dataset.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DBDialogCtls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Designer.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DesignerOptions.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Diagonal.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DialogCtls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DsgCtrls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_bmp.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_emf.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_gif.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_E_Graphic.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_Jpeg.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_E_WMF.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorBand.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorBarCode.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorCalc.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorDictionary.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorExpr.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorFindReplace.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorFormat.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorFrame.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorGroup.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorHilit.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorMemo.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorPicture.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorReportProp.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorStrings.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorTemplate.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_FormReport.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Insp.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Ole.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PageSetup.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Parser.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PChart.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PDBGrid.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PdcsGrid.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PEhGrid.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Printer.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Progr.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PropAdds.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PropInsp.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PRxCtls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PwwGrid.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_RichEdit.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_RxParaFmt.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Utils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PreView.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Wizard.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_WizardNewReport.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wwRichEdit.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_ADO.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_BDE.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_DataPrv.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_DBWrap.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_Dbx.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_DlgListField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_DlgNewLookupField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_EditorField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_Editorldlinks.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_ExpFrm.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_IBX.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_Qblnk.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_QryDesigner.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_QueryParm.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_ReportExplorer.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMInterpreter_Chart.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DsgForm.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DsgGridReport.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorCellProp.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorCellWidth.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorGridCols.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorInsField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Grid.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_GridReport.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_PrintDlg.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_DlgSelectReportType.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_htm.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DlgFind.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorBandType.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_Xls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_DBChart.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Vers.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Cmn.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Cnst.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Ctls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Tlbr.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97Tlwn.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TB97.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_csv.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_AsBarView.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_Cross.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_AsBarCode.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_txt.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_AutoSearchField.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_E_llPDF.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_main.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_e_Tiff.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorConfirmReplace.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorFieldAlias.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorHF.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorReplaceText.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorReportMaster.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_EditorSearchText.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_GridReportMaster.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_HtmlMemo.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JclMime.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JVCLVer.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvEditor.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvHLEditor.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvHLParser.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Classes.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Controls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Db.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_DbTables.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Dialogs.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_ExtCtrls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Forms.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Graphics.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_StdCtrls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_System.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_SysUtils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Types.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_Windows.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreterConst.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreterFm.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreterParser.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_JvRichEdit.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvTypes.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_ReportMaster.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_St2DBarC.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_StBarC.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_StBase.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_StConst.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_TntRichEdit.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawBIFF8.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawConsts.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawExcel.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawExcelfmt.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawFormula.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawFormula_iftab.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wawWriters.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_wzGridStd.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_ZlibEx.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RMD_midas.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvWin32.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JclBase.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JclResources.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JclStrings.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JclWideStrings.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvComponentBase.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvConsts.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvEditorCommon.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvExControls.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvFixedEditPopup.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvInterpreter_JvUtils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvJCLUtils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvJVCLUtils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvResources.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvThemes.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvUnicodeCanvas.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_JvVCL5Utils.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_System.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\RM_CodeGen.obj 
+      d:\winapps\borland\cbuilder5\Projects\Lib\rm_r51.obj"/>
+    <RESFILES value="rm_r51.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) RM_about.dfm RM_BarCode.dfm RM_Chart.dfm RM_Designer.dfm 
+      RM_DesignerOptions.dfm RM_e_bmp.dfm RM_e_emf.dfm RM_e_gif.dfm 
+      RM_e_Jpeg.dfm RM_E_WMF.dfm RM_EditorBand.dfm RM_EditorBarCode.dfm 
+      RM_EditorCalc.dfm RM_EditorDictionary.dfm RM_EditorExpr.dfm 
+      RM_EditorField.dfm RM_EditorFindReplace.dfm RM_EditorFormat.dfm 
+      RM_EditorFrame.dfm RM_EditorGroup.dfm RM_EditorHilit.dfm RM_EditorMemo.dfm 
+      RM_EditorPicture.dfm RM_EditorReportProp.dfm RM_EditorStrings.dfm 
+      RM_EditorTemplate.dfm RM_Ole.dfm RM_PageSetup.dfm RM_Progr.dfm 
+      RM_RichEdit.dfm RM_RxParaFmt.dfm RM_PreView.dfm RM_WizardNewReport.dfm 
+      RM_wwRichEdit.dfm RMD_ADO.dfm RMD_BDE.dfm RMD_DataPrv.dfm RMD_Dbx.dfm 
+      RMD_DlgListField.dfm RMD_DlgNewLookupField.dfm RMD_EditorField.dfm 
+      RMD_Editorldlinks.dfm RMD_ExpFrm.dfm RMD_IBX.dfm RMD_Qblnk.dfm 
+      RMD_QryDesigner.dfm RMD_QueryParm.dfm RM_DsgGridReport.dfm 
+      RM_EditorCellProp.dfm RM_EditorCellWidth.dfm RM_EditorGridCols.dfm 
+      RM_PrintDlg.dfm RMD_DlgSelectReportType.dfm RM_e_htm.dfm RM_DlgFind.dfm 
+      RM_EditorBandType.dfm RM_e_Xls.dfm RM_DBChart.dfm RM_e_csv.dfm 
+      RM_Cross.dfm RM_e_txt.dfm RM_e_Tiff.dfm RM_EditorConfirmReplace.dfm 
+      RM_EditorFieldAlias.dfm RM_EditorHF.dfm RM_EditorReplaceText.dfm 
+      RM_EditorReportMaster.dfm RM_EditorSearchText.dfm RM_HtmlMemo.dfm 
+      RM_TntRichEdit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcldbx50.lib TeeUI50.lib"/>
+    <SPARELIBS value="Vcl50.lib Vcldb50.lib Tee50.lib vcljpg50.lib VCLBDE50.lib Vclx50.lib 
+      Dss50.lib vclado50.lib Vclmid50.lib TeeUI50.lib TeeDB50.lib vcldbx50.lib"/>
+    <PACKAGES value="vcl50.bpi vclsmp50.bpi vcldb50.bpi vclbde50.bpi vcljpg50.bpi tee50.bpi 
+      vclib50.bpi dss50.bpi vclado50.bpi vclx50.bpi vclmid50.bpi teedb50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="rm_r51.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -Vx -Ve -X- -r- -a8 -b- -k -y -vi- -c -tWM"/>
+    <PFLAGS value="-N2$(BCB)\Projects\Lib -N0$(BCB)\Projects\Lib -$Y+ -$W -$O- 
+      -LUdcltee50.bpl -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-l$(BCB)\Projects\Bpl -I$(BCB)\Projects\Lib 
+      -D&quot;ReportMachine Runtime Package 5.08&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=3
+MinorVer=1
+Release=1
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=3.1.1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=$(BCB)\include;$(BCB)\include\vcl
+Item1=..\source;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\source;E:\DCL\RMachine\Source\;$(BCB)\include;$(BCB)\include\vcl
+Item3=..\source;E:\DCL\RMachine\Source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;..\lib
+Item1=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib;e:\dcl\rmachine\lib
+Item2=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Projects\Lib
+Item3=$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\source;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=$(BCB)\Projects\Lib
+Item1=..\lib
+Item2=e:\dcl\rmachine\lib
+
+[HistoryLists\hlFinalOutputDir]
+Count=10
+Item0=$(BCB)\Projects\Bpl\
+Item1=d:\winapps\borland\cbuilder5\Projects\Bpl\
+Item2=$(BCB)\Projects\Bpl
+Item3=e:\bpl\
+Item4=e:\bpl
+Item5=d:\winapps\borland\cbuilder5\Projects\Lib\
+Item6=$(BCB)\Projects\Lib
+Item7=$(BCB)
+Item8=e:\bpl1\
+Item9=e:\bpl1
+
+[HistoryLists\hIBPIOutputDir]
+Count=5
+Item0=$(BCB)\Projects\Bpl
+Item1=e:\bpl\
+Item2=e:\bpl
+Item3=e:\bpl1\
+Item4=e:\bpl1
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
