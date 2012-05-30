@@ -9,12 +9,11 @@
      
 </head>
 <body>
- <table class=maintable>
-  <tr  class=top>
-   <td colspan="2">
+ <div class=top>
    <!-- #include file = "top.aspx" -->
-   </td>
-  </tr>
+ </div>
+ <table class=maintable>
+  
    <tr>
     <td  class=left >
      <!-- #include file = "left.aspx" -->
