@@ -17,9 +17,9 @@
     <td class="left" >
      <!-- #include file = "left.aspx" -->
     </td>
-    <td  class="top">
+    <td style="vertical-align:top;">
     
-   <form id="form1" runat="server">
+   <form id="form1" runat="server" >
     <div>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UserInfo.aspx">新建用户</asp:HyperLink>
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" 

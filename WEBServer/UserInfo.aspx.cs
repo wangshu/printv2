@@ -18,15 +18,44 @@ public partial class UserInfo : System.Web.UI.Page
         if (Session["uname"] == null)
         {
             Response.Write("<script>alert('系统超时或非法登录，请重新登录！');window.location.href='default.aspx';</script>");
+            return;
         }
+        if (Session["uid"]==null)
+        {
+            Response.Write("<script>alert('系统超时或非法登录，请重新登录！');window.location.href='default.aspx';</script>");
+            return;
+        }
+
+        if (Session["ucount"] == null)
+        {
+            Response.Write("<script>alert('系统超时或非法登录，请重新登录！');window.location.href='default.aspx';</script>");
+            return;
+        }
+        string uid = Session["uid"].ToString();
         dbh = new DbHelper();
+        string sql;
+        sql = string.Format("select count(*) from userinfo where parent_id='{0}' ", uid);
+        DbCommand dbc = dbh.GetSqlStringCommond(sql);
+             
+
+        int count=int.Parse(dbh.ExecuteScalar(dbc).ToString());
+    
+        int usercount = int.Parse(Session["ucount"].ToString()); ;
+        if (count >= usercount)
+        {
+            Response.Write("<script>alert('用户最大数超出设定范围，请联系管理员！');window.location.href='userlist.aspx';</script>");
+            return;
+        }
+
+
         if (Request["id"] != null)
         {
+            
             id = Request["id"];
-            string sql;
+             
             sql = string.Format("select * from userinfo where id='{0}' ", Request["id"]);
-            DbCommand dbc = dbh.GetSqlStringCommond(sql);
-            dbr = dbh.ExecuteReader(dbc);
+            DbCommand dbc3 = dbh.GetSqlStringCommond(sql);
+            dbr = dbh.ExecuteReader(dbc3);
             dbr.Read();
             tb_guid.Text = dbr["guid"].ToString();
             tb_memo.Text = dbr["memo"].ToString();
