@@ -19,6 +19,7 @@
      <!-- #include file = "left.aspx" -->
     </td>
     <td style="width:auto;height:auto" valign="top"> 
+      <p>版本信息编辑</p>
     <form id="form1" runat="server">
     <div>
         <asp:ScriptManager ID="ScriptManager1" runat="server">

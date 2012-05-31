@@ -96,7 +96,8 @@ begin
     cxGroupBox5.Enabled := True ;
     cxGroupBox4.Enabled := True ;
   end;
-  ;
+  frm_Authorization.Timer1.Enabled:=false;
+  frm_Authorization.Free;
   RefreshReportList;
   lv_reportlist.Column[0].Width := lv_reportlist.Width - 5;
 

@@ -30,10 +30,12 @@
    <tr>
     <td  class="left">
      <!-- #include file = "left.aspx" -->
-    </td>
-    <td style="width:auto;height:auto">
-    <form id="form1" runat="server">
-    <div>
+    </td> 
+    <td style="width:auto;height:auto;vertical-align:top;" valign="top">
+    <p>用户信息编辑</p>
+     
+    <form id="form1" runat="server" style="vertical-align:top;">
+    <div style="vertical-align:top;">
     
         <table style="width:100%;">
             <tr>
@@ -124,28 +126,8 @@
                 <td>
                     </td>
             </tr>
-            <tr>
-                <td class="style3">
-                    &nbsp;</td>
-                <td class="style1">
-                    &nbsp;</td>
-                <td class="style2">
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    </td>
-                <td class="style1">
-                    <asp:Label ID="Label5" runat="server" Text="用户类型"></asp:Label>
-                    </td>
-                <td class="style2">
-                    <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
-                    </td>
-                <td>
-                    </td>
-            </tr>
+            
+            
             <tr>
                 <td class="style3">
                     &nbsp;</td>
@@ -163,9 +145,9 @@
                     <asp:Label ID="Label6" runat="server" Text="用户状态"></asp:Label>
                     </td>
                 <td class="style2">
-                    <asp:RadioButton ID="rb_stop" runat="server" Text="停用" />
+                    <asp:RadioButton ID="rb_stop" runat="server" Text="停用" GroupName="active" />
                      
-                    <asp:RadioButton ID="rb_active" runat="server" Text="活动" />
+                    <asp:RadioButton ID="rb_active" runat="server" Text="活动" GroupName="active" />
                     </td>
                 <td>
                     </td>

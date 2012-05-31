@@ -91,7 +91,7 @@ ImageBase=4194304
 ExeDescription=Report Machine Runtime Package 5.50
 [Directories]
 OutputDir=
-UnitOutputDir=
+UnitOutputDir=..\..\temp\
 PackageDLLOutputDir=
 PackageDCPOutputDir=
 SearchPath=
@@ -105,6 +105,10 @@ HostApplication=
 Launcher=
 UseLauncher=0
 DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
 [Version Info]
 IncludeVerInfo=1
 AutoIncBuild=1
@@ -137,9 +141,10 @@ Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
 Count=1
 Item0=.\rm_jvcl
 [HistoryLists\hlUnitOutputDirectory]
-Count=2
-Item0=C:\TEMP
-Item1=E:\DCL\Ehlib\Lib\d5
+Count=3
+Item0=..\..\temp\
+Item1=C:\TEMP
+Item2=E:\DCL\Ehlib\Lib\d5
 [HistoryLists\hlBPLOutput]
 Count=3
 Item0=e:\bpl

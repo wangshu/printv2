@@ -18,7 +18,7 @@ public partial class Userlist : System.Web.UI.Page
         }
         dbh = new DbHelper();
         string sql;
-        sql = string.Format("select * from userinfo");
+        sql = string.Format("select * from userinfo where parent_id='"+Session["uid"].ToString() +"'");
         DbCommand dbc = dbh.GetSqlStringCommond(sql);
         dbr = dbh.ExecuteReader(dbc);
         this.GridView1.DataSource = dbr;
