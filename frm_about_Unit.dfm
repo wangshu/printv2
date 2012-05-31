@@ -2,34 +2,33 @@ object AboutBox: TAboutBox
   Left = 412
   Top = 349
   BorderStyle = bsDialog
-  Caption = #0
-  ClientHeight = 237
-  ClientWidth = 317
+  ClientHeight = 251
+  ClientWidth = 336
   Color = clBtnFace
   Font.Charset = GB2312_CHARSET
   Font.Color = clWindowText
-  Font.Height = -14
+  Font.Height = -18
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = True
   Position = poScreenCenter
   OnCreate = FormCreate
-  PixelsPerInch = 96
-  TextHeight = 17
+  PixelsPerInch = 120
+  TextHeight = 18
   object Panel1: TPanel
-    Left = 9
-    Top = 9
-    Width = 303
-    Height = 186
+    Left = 10
+    Top = 10
+    Width = 320
+    Height = 196
     BevelInner = bvRaised
     BevelOuter = bvLowered
     ParentColor = True
     TabOrder = 0
     object ProgramIcon: TImage
-      Left = 9
-      Top = 9
-      Width = 70
-      Height = 61
+      Left = 10
+      Top = 10
+      Width = 74
+      Height = 64
       Picture.Data = {
         07544269746D617076020000424D760200000000000076000000280000002000
         0000200000000100040000000000000200000000000000000000100000000000
@@ -56,53 +55,53 @@ object AboutBox: TAboutBox
       IsControl = True
     end
     object ProductName: TLabel
-      Left = 94
-      Top = 18
-      Width = 163
-      Height = 17
+      Left = 100
+      Top = 19
+      Width = 172
+      Height = 18
       AutoSize = False
       Caption = #19987#19994#31080#25454#25171#21360#31995#32479
       IsControl = True
     end
     object Version: TLabel
-      Left = 94
-      Top = 43
-      Width = 40
-      Height = 17
+      Left = 100
+      Top = 46
+      Width = 54
+      Height = 18
       Caption = 'V0.0.2'
       IsControl = True
     end
     object Copyright: TLabel
-      Left = 9
-      Top = 87
-      Width = 238
-      Height = 17
+      Left = 10
+      Top = 92
+      Width = 252
+      Height = 18
       AutoSize = False
       Caption = #26412#31243#24207#19968#20999#26435#21033#24402#24320#21457#32773#25152#26377#65281
       IsControl = True
     end
     object Comments: TLabel
-      Left = 9
-      Top = 112
-      Width = 59
-      Height = 17
+      Left = 10
+      Top = 119
+      Width = 72
+      Height = 18
       Caption = 'KILL_NET'
       WordWrap = True
       IsControl = True
     end
     object Label1: TLabel
-      Left = 10
-      Top = 151
-      Width = 18
-      Height = 16
+      Left = 11
+      Top = 160
+      Width = 19
+      Height = 17
       AutoSize = False
       Caption = 'SN'
     end
     object edt_sn: TEdit
-      Left = 51
-      Top = 149
-      Width = 246
-      Height = 24
+      Left = 54
+      Top = 158
+      Width = 260
+      Height = 21
       Font.Charset = GB2312_CHARSET
       Font.Color = clWindowText
       Font.Height = -13
@@ -115,10 +114,10 @@ object AboutBox: TAboutBox
     end
   end
   object OKButton: TButton
-    Left = 120
-    Top = 204
-    Width = 80
-    Height = 26
+    Left = 127
+    Top = 216
+    Width = 85
+    Height = 28
     Caption = #30830
     Default = True
     ModalResult = 1

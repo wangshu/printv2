@@ -351,6 +351,10 @@ procedure Tfrm_main.cxButton2Click(Sender: TObject);
 var
   i, j: integer;
 begin
+  if  lv_reportlist.Selected=nil then
+   begin
+     exit;
+   end;
   selectnode := xml.Root.Nodes[lv_reportlist.Selected.Index];
   initDataset;
   

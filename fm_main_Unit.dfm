@@ -1,26 +1,27 @@
 object frm_main: Tfrm_main
   Left = 217
   Top = 198
-  Width = 952
+  Width = 1165
   Height = 656
-  Caption = #32508#21512
+  Caption = #32508#21512#25253#34920#25171#21360#31995#32479
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
+  Font.Charset = GB2312_CHARSET
   Font.Color = clWindowText
-  Font.Height = -14
+  Font.Height = -17
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  WindowState = wsMaximized
   OnCreate = FormCreate
   OnShow = FormShow
-  PixelsPerInch = 96
+  PixelsPerInch = 120
   TextHeight = 17
   object dxStatusBar1: TdxStatusBar
     Left = 0
-    Top = 605
-    Width = 944
-    Height = 17
+    Top = 587
+    Width = 1147
+    Height = 24
     Panels = <
       item
         PanelStyleClassName = 'TdxStatusBarTextPanelStyle'
@@ -28,20 +29,20 @@ object frm_main: Tfrm_main
       end>
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -12
+    Font.Height = -17
     Font.Name = 'MS Sans Serif'
     Font.Style = []
   end
   object cxPageControl1: TcxPageControl
-    Left = 239
-    Top = 55
-    Width = 705
-    Height = 550
-    ActivePage = cxTabSheet1
+    Left = 337
+    Top = 78
+    Width = 810
+    Height = 509
+    ActivePage = cxTabSheet2
     Align = alClient
     TabOrder = 2
-    ClientRectBottom = 550
-    ClientRectRight = 705
+    ClientRectBottom = 509
+    ClientRectRight = 810
     ClientRectTop = 28
     object cxTabSheet1: TcxTabSheet
       Caption = #21464#37327
@@ -51,58 +52,58 @@ object frm_main: Tfrm_main
         Top = 0
         Align = alTop
         TabOrder = 0
-        Height = 48
-        Width = 705
+        Height = 68
+        Width = 810
         object cxButton3: TcxButton
-          Left = 411
-          Top = 14
-          Width = 63
-          Height = 21
-          Caption = #21024
+          Left = 580
+          Top = 20
+          Width = 89
+          Height = 29
+          Caption = #21024#38500
           TabOrder = 1
           OnClick = cxButton3Click
         end
         object cxButton4: TcxButton
-          Left = 347
-          Top = 14
-          Width = 64
-          Height = 21
-          Caption = #28155
+          Left = 490
+          Top = 20
+          Width = 90
+          Height = 29
+          Caption = #28155#21152
           TabOrder = 0
           OnClick = cxButton4Click
         end
         object cxButton5: TcxButton
-          Left = 474
-          Top = 14
-          Width = 64
-          Height = 21
-          Caption = #35774
+          Left = 669
+          Top = 20
+          Width = 91
+          Height = 29
+          Caption = #35774#35745
           TabOrder = 2
           OnClick = cxButton5Click
         end
       end
       object lv_attrib: TcxListView
         Left = 0
-        Top = 48
-        Width = 705
-        Height = 474
+        Top = 68
+        Width = 810
+        Height = 413
         Align = alClient
         Columns = <
           item
             Caption = #21464#37327#21517#31216
-            Width = 102
+            Width = 144
           end
           item
             Caption = #21464#37327#31867#22411
-            Width = 102
+            Width = 144
           end
           item
             Caption = #26368#22823#20540
-            Width = 102
+            Width = 144
           end
           item
             Caption = #26368#23567#20540
-            Width = 102
+            Width = 144
           end>
         RowSelect = True
         TabOrder = 1
@@ -117,47 +118,47 @@ object frm_main: Tfrm_main
         Top = 0
         Align = alTop
         TabOrder = 0
-        Height = 48
-        Width = 705
+        Height = 68
+        Width = 810
         object Label1: TLabel
-          Left = 27
-          Top = 20
-          Width = 83
-          Height = 17
+          Left = 38
+          Top = 28
+          Width = 117
+          Height = 24
           AutoSize = False
           Caption = #25171#21360#20221#25968
         end
         object cxButton1: TcxButton
-          Left = 483
-          Top = 18
-          Width = 64
-          Height = 21
+          Left = 682
+          Top = 25
+          Width = 90
+          Height = 30
           Caption = #25171#21360
           TabOrder = 2
           OnClick = cxButton1Click
         end
         object cxButton2: TcxButton
-          Left = 415
-          Top = 18
-          Width = 64
-          Height = 21
+          Left = 586
+          Top = 25
+          Width = 90
+          Height = 30
           Caption = #29983#25104
           TabOrder = 1
           OnClick = cxButton2Click
         end
         object sedt_rowcount: TcxSpinEdit
-          Left = 122
-          Top = 17
+          Left = 172
+          Top = 24
           TabOrder = 0
           Value = 1
-          Width = 103
+          Width = 146
         end
       end
       object cxGrid1: TcxGrid
         Left = 0
-        Top = 48
-        Width = 705
-        Height = 474
+        Top = 68
+        Width = 810
+        Height = 413
         Align = alClient
         TabOrder = 1
         object cxGrid1DBTableView1: TcxGridDBTableView
@@ -180,68 +181,68 @@ object frm_main: Tfrm_main
     Top = 0
     Align = alTop
     TabOrder = 0
-    Height = 55
-    Width = 944
+    Height = 78
+    Width = 1147
     object cxButton7: TcxButton
-      Left = 714
-      Top = 20
-      Width = 64
-      Height = 22
-      Caption = #20851
+      Left = 1008
+      Top = 28
+      Width = 90
+      Height = 31
+      Caption = #20851#20110
       TabOrder = 0
       OnClick = cxButton7Click
     end
   end
   object cxGroupBox2: TcxGroupBox
     Left = 0
-    Top = 55
+    Top = 78
     Align = alLeft
     Caption = #25253#34920
     ParentFont = False
-    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Charset = GB2312_CHARSET
     Style.Font.Color = clWindowText
-    Style.Font.Height = -15
+    Style.Font.Height = -17
     Style.Font.Name = 'MS Sans Serif'
     Style.Font.Style = []
     Style.IsFontAssigned = True
     TabOrder = 1
-    Height = 550
-    Width = 239
+    Height = 509
+    Width = 337
     object cxGroupBox5: TcxGroupBox
       Left = 2
-      Top = 23
+      Top = 22
       Align = alTop
       TabOrder = 0
-      Height = 44
-      Width = 235
+      Height = 62
+      Width = 333
       object cxButton6: TcxButton
-        Left = 94
-        Top = 14
-        Width = 64
-        Height = 21
-        Caption = #28155
+        Left = 133
+        Top = 20
+        Width = 90
+        Height = 29
+        Caption = #28155#21152
         TabOrder = 0
         OnClick = cxButton6Click
       end
       object cxButton8: TcxButton
-        Left = 158
-        Top = 14
-        Width = 64
-        Height = 21
-        Caption = #21024
+        Left = 223
+        Top = 20
+        Width = 90
+        Height = 29
+        Caption = #21024#38500
         TabOrder = 1
         OnClick = cxButton8Click
       end
     end
     object lv_reportlist: TcxListView
       Left = 2
-      Top = 67
-      Width = 235
-      Height = 481
+      Top = 84
+      Width = 333
+      Height = 423
       Align = alClient
       Columns = <
         item
-          Width = 43
+          Width = 61
         end>
       ReadOnly = True
       RowSelect = True
@@ -280,7 +281,7 @@ object frm_main: Tfrm_main
   object cxStyleRepository1: TcxStyleRepository
     Left = 48
     Top = 16
-    PixelsPerInch = 96
+    PixelsPerInch = 120
   end
   object cxPropertiesStore1: TcxPropertiesStore
     Components = <>
