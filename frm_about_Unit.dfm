@@ -2,19 +2,19 @@ object AboutBox: TAboutBox
   Left = 412
   Top = 349
   BorderStyle = bsDialog
-  Caption = 'About'
+  Caption = #0
   ClientHeight = 237
   ClientWidth = 317
   Color = clBtnFace
   Font.Charset = GB2312_CHARSET
   Font.Color = clWindowText
-  Font.Height = -17
+  Font.Height = -14
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = True
   Position = poScreenCenter
   OnCreate = FormCreate
-  PixelsPerInch = 120
+  PixelsPerInch = 96
   TextHeight = 17
   object Panel1: TPanel
     Left = 9
@@ -67,7 +67,7 @@ object AboutBox: TAboutBox
     object Version: TLabel
       Left = 94
       Top = 43
-      Width = 54
+      Width = 40
       Height = 17
       Caption = 'V0.0.2'
       IsControl = True
@@ -84,7 +84,7 @@ object AboutBox: TAboutBox
     object Comments: TLabel
       Left = 9
       Top = 112
-      Width = 72
+      Width = 59
       Height = 17
       Caption = 'KILL_NET'
       WordWrap = True
@@ -102,7 +102,7 @@ object AboutBox: TAboutBox
       Left = 51
       Top = 149
       Width = 246
-      Height = 21
+      Height = 24
       Font.Charset = GB2312_CHARSET
       Font.Color = clWindowText
       Font.Height = -13
@@ -119,7 +119,7 @@ object AboutBox: TAboutBox
     Top = 204
     Width = 80
     Height = 26
-    Caption = #30830#23450
+    Caption = #30830
     Default = True
     ModalResult = 1
     TabOrder = 1

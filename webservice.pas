@@ -1,10 +1,10 @@
 // ************************************************************************ //
 // The types declared in this file were generated from data read from the
 // WSDL File described below:
-// WSDL     : http://localhost:50030/WEBServer/webservice.asmx?WSDL
+// WSDL     : http://a1256588.w56.1860php.com/webservice.asmx?WSDL
 // Encoding : utf-8
 // Version  : 1.0
-// (2012/5/30 21:00:18 - 1.33.2.5)
+// (2012/05/31 10:20:39 - 1.33.2.5)
 // ************************************************************************ //
 
 unit webservice;
@@ -34,7 +34,7 @@ type
   // binding   : WebServiceSoap
   // service   : WebService
   // port      : WebServiceSoap
-  // URL       : http://localhost:50030/WEBServer/webservice.asmx
+  // URL       : http://a1256588.w56.1860php.com/webservice.asmx
   // ************************************************************************ //
   WebServiceSoap = interface(IInvokable)
   ['{F790808E-B4BF-D72D-D6C0-3B8652961A63}']
@@ -49,8 +49,8 @@ implementation
 
 function GetWebServiceSoap(UseWSDL: Boolean; Addr: string; HTTPRIO: THTTPRIO): WebServiceSoap;
 const
-  defWSDL = 'http://localhost:50030/WEBServer/webservice.asmx?WSDL';
-  defURL  = 'http://localhost:50030/WEBServer/webservice.asmx';
+  defWSDL = 'http://a1256588.w56.1860php.com/webservice.asmx?WSDL';
+  defURL  = 'http://a1256588.w56.1860php.com/webservice.asmx';
   defSvc  = 'WebService';
   defPrt  = 'WebServiceSoap';
 var
@@ -88,4 +88,4 @@ initialization
   InvRegistry.RegisterInterface(TypeInfo(WebServiceSoap), 'http://tempuri.org/', 'utf-8');
   InvRegistry.RegisterDefaultSOAPAction(TypeInfo(WebServiceSoap), 'http://tempuri.org/%operationName%');
 
-end.
+end. 

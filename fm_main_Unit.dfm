@@ -3,7 +3,7 @@ object frm_main: Tfrm_main
   Top = 198
   Width = 952
   Height = 656
-  Caption = 'frm_main'
+  Caption = #32508#21512
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,7 +21,11 @@ object frm_main: Tfrm_main
     Top = 605
     Width = 944
     Height = 17
-    Panels = <>
+    Panels = <
+      item
+        PanelStyleClassName = 'TdxStatusBarTextPanelStyle'
+        Width = 120
+      end>
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
@@ -106,7 +110,7 @@ object frm_main: Tfrm_main
       end
     end
     object cxTabSheet2: TcxTabSheet
-      Caption = #29983#25104#25968#25454
+      Caption = #29983#25104
       ImageIndex = 1
       object cxGroupBox3: TcxGroupBox
         Left = 0
@@ -239,8 +243,11 @@ object frm_main: Tfrm_main
         item
           Width = 43
         end>
+      ReadOnly = True
+      RowSelect = True
       TabOrder = 1
       ViewStyle = vsReport
+      OnDblClick = lv_reportlistDblClick
       OnSelectItem = lv_reportlistSelectItem
     end
   end

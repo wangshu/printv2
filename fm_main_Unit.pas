@@ -59,6 +59,7 @@ type
     procedure cxButton5Click(Sender: TObject);
     procedure cxButton2Click(Sender: TObject);
     procedure cxButton1Click(Sender: TObject);
+    procedure lv_reportlistDblClick(Sender: TObject);
   private
     { Private declarations }
     xmlfile: string;
@@ -93,8 +94,10 @@ begin
   end
   else
   begin
-    cxGroupBox5.Enabled := True ;
-    cxGroupBox4.Enabled := True ;
+    cxGroupBox5.Enabled := False   ;
+    cxGroupBox4.Enabled := False   ;
+    dxStatusBar1.Font.Color:=clRed;
+        dxStatusBar1.Panels[0].Text:='未注册版本';
   end;
   frm_Authorization.Timer1.Enabled:=false;
   frm_Authorization.Free;
@@ -409,6 +412,26 @@ begin
   begin
     application.MessageBox('请先生成数据后再进行打印操作！','系统提示',MB_OK)
   end;
+end;
+
+procedure Tfrm_main.lv_reportlistDblClick(Sender: TObject);
+begin
+ if (lv_reportlist.Selected <> nil) then
+  begin
+ frm_printInfo := Tfrm_printInfo.Create(self);
+  frm_printInfo.node := xml.Root.Nodes[lv_reportlist.Selected.Index];;
+  if frm_printInfo.ShowModal = mrok then
+  begin
+            RefreshReportList;
+
+  end
+  else
+  begin
+  xml.LoadFromFile(self.xmlfile);
+  end;
+     frm_printInfo.Free;
+ end;
+  cxPageControl1.ActivePageIndex := 0;
 end;
 
 end.
