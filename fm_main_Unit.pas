@@ -60,6 +60,8 @@ type
     procedure cxButton2Click(Sender: TObject);
     procedure cxButton1Click(Sender: TObject);
     procedure lv_reportlistDblClick(Sender: TObject);
+    procedure RMDesigner1SaveReport(Report: TRMReport;
+      var ReportName: String; SaveAs: Boolean; var Saved: Boolean);
   private
     { Private declarations }
     xmlfile: string;
@@ -334,12 +336,12 @@ begin
   initDataset;
   self.dxMemData.Open;
   self.dxMemData.Append;
-  
+
   self.dxMemData.Post;
   self.RMReport1.LoadFromFile(ExtractFilePath(Application.ExeName) + selectnode.AttributeByName[REPORT_FILE_NAME]);
   self.RMReport1.DesignReport;
-  (self.RMReport1.Pages[0] as TRMReportPage).PageWidth := StrToInt(selectnode.AttributeByName[REPORT_WIDTH]);
-  (self.RMReport1.Pages[0] as TRMReportPage).PageHeight := StrToInt(selectnode.AttributeByName[REPORT_HEIGHT]);
+ // (self.RMReport1.Pages[0] as TRMReportPage).PageWidth := StrToInt(selectnode.AttributeByName[REPORT_WIDTH]);
+  //(self.RMReport1.Pages[0] as TRMReportPage).PageHeight := StrToInt(selectnode.AttributeByName[REPORT_HEIGHT]);
   self.RMReport1.SaveToFile(self.RMReport1.FileName);
 
 
@@ -432,6 +434,14 @@ begin
      frm_printInfo.Free;
  end;
   cxPageControl1.ActivePageIndex := 0;
+end;
+
+procedure Tfrm_main.RMDesigner1SaveReport(Report: TRMReport;
+  var ReportName: String; SaveAs: Boolean; var Saved: Boolean);
+begin
+     selectnode := xml.Root.Nodes[lv_reportlist.Selected.Index]; 
+  (Report.Pages[0] as TRMReportPage).PageWidth := StrToInt(selectnode.AttributeByName[REPORT_WIDTH]);
+  (Report.Pages[0] as TRMReportPage).PageHeight := StrToInt(selectnode.AttributeByName[REPORT_HEIGHT]);
 end;
 
 end.

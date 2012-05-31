@@ -273,6 +273,7 @@ object frm_main: Tfrm_main
   end
   object RMDesigner1: TRMDesigner
     DesignerRestrictions = []
+    OnSaveReport = RMDesigner1SaveReport
     Left = 16
     Top = 16
   end
