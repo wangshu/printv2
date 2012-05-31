@@ -15,6 +15,7 @@ public partial class Userlist : System.Web.UI.Page
          if (Session["uname"] == null)
          {
             Response.Write("<script>alert('系统超时或非法登录，请重新登录！');window.location.href='default.aspx';</script>");
+            return;
         }
         dbh = new DbHelper();
         string sql;
@@ -23,6 +24,6 @@ public partial class Userlist : System.Web.UI.Page
         dbr = dbh.ExecuteReader(dbc);
         this.GridView1.DataSource = dbr;
         this.GridView1.DataBind(); 
-
+          
     }
 }

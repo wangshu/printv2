@@ -69,8 +69,8 @@ public partial class UserInfo : System.Web.UI.Page
         else
         {
             tb_guid.ReadOnly = false;
-            tb_buydate.Text = DateTime.Now.ToString("yyyy-MM-dd");
-            tb_stopdate.Text = DateTime.Now.AddYears(1).ToString("yyyy-MM-dd");
+            tb_buydate.Text = DateTime.Now.ToString("yyyyMMdd");
+            tb_stopdate.Text = DateTime.Now.AddYears(1).ToString("yyyyMMdd");
             rb_stop.Checked = true;
         }
     }

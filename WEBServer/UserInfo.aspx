@@ -99,7 +99,7 @@
                     <asp:Label ID="Label3" runat="server" Text="购买日期"></asp:Label>
                     </td>
                 <td class="style2">
-                    <asp:TextBox ID="tb_buydate" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="tb_buydate" runat="server" MaxLength="8"></asp:TextBox>
                     </td>
                 <td>
                     </td>
@@ -121,7 +121,7 @@
                     <asp:Label ID="Label4" runat="server" Text="停用日期"></asp:Label>
                     </td>
                 <td class="style2">
-                    <asp:TextBox ID="tb_stopdate" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="tb_stopdate" runat="server" MaxLength="8"></asp:TextBox>
                     </td>
                 <td>
                     </td>
